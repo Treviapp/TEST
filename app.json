@@ -21,10 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.amandatreviapp.testeasbuild"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "20c51b67-4c45-4c12-95cd-f99c8ae83e43"
+      }
+    },
+    "owner": "amandatreviapp",
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
